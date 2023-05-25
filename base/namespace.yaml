@@ -4,5 +4,6 @@ kind: Namespace
 metadata:
   labels:
     name: aap
+    argocd.argoproj.io/managed-by: openshift-gitops // namespace of the Argo CD instance
   name: aap
 spec: {}
